@@ -1,10 +1,10 @@
 const name = "shubhra"
 const repoCount = 50
 
-console.log(name + repoCount + " Value");
+ console.log(name + repoCount + " Value");
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('shubhrahcl')
+const gameName = new String('shubhra-hcl')
 
 console.log(gameName[0]);
 console.log(gameName.__proto__);
@@ -13,3 +13,24 @@ console.log(gameName.__proto__);
 
 console.log(gameName.length);
 console.log(gameName.charAt(5));
+
+const newString = gameName.substring(0, 4)// never accept negative value
+console.log(newString);
+
+const anotherString = gameName.slice(-8, 4)// gonna use many times in future code;
+console.log(anotherString);
+
+// trim function trim the extra parts of string such as extra space in string //
+// should read documentations about trim //
+
+const url = "https://shubhra.com/shubhra%30pandey"
+
+console.log(url.replace('%30' , '-'))
+
+console.log(url.includes('shubhra'))
+
+console.log(gameName.split('-'))
+
+//revision of string functions//
+
+
