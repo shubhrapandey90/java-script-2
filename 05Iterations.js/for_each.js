@@ -1,4 +1,4 @@
-const coding = ["java", "c++", "python"]
+const coding = ["javascript", "python", "ruby"]
 
 // coding.forEach( function (val){
 //     console.log(val);
